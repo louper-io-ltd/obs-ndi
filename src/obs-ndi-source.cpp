@@ -311,7 +311,7 @@ void ndi_source_getdefaults(obs_data_t *settings)
 				 PROP_YUV_RANGE_PARTIAL);
 	obs_data_set_default_int(settings, PROP_YUV_COLORSPACE,
 				 PROP_YUV_SPACE_BT709);
-	obs_data_set_default_int(settings, PROP_LATENCY, PROP_LATENCY_NORMAL);
+	obs_data_set_default_int(settings, PROP_LATENCY, PROP_LATENCY_LOW);
 	obs_data_set_default_bool(settings, PROP_AUDIO, true);
 }
 
